@@ -4,7 +4,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #5b2a2a;
     margin: 0;
     padding: 40px;
 }
@@ -12,7 +12,7 @@ body {
 .container {
     max-width: 600px;
     margin: auto;
-    background: rgb(155, 149, 149);
+    background: rgb(148, 93, 93);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(247, 245, 245, 0.1);

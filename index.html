@@ -7,6 +7,8 @@
 </html>
 </head>
 
+    <script src="script.js"></script>
+
     <head>
         <link rel="stylesheet" href="style.css">
       </head>
@@ -20,16 +22,16 @@
         <div class="titulo"></div>
         <form>
             <label for="nome">Nome completo:</label>
-            <input type="text" id="nome" name="nome" placeholder="Digite o nome" required>
+            <input type="text" maxlength="50" id="nome" name="nome" placeholder="Digite o nome" required>
 
             <label for="cpf">CPF:</label>
-            <input type="text" id="cpf" name="cpf" placeholder="Digite o CPF" required>
+            <input type="text" maxlength="11" id="cpf" name="cpf" placeholder="Digite o CPF" required>
 
             <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" placeholder="Digite o e-mail" required>
+            <input type="email" maxlength="244" id="email" name="email" placeholder="Digite o e-mail" required>
 
             <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone" placeholder="Digite o telefone">
+            <input type="tel" maxlength="11" id="telefone" name="telefone" placeholder="Digite o telefone">
 
             <label for="cargo">Cargo:</label>
             <select id="cargo" name="cargo">
@@ -38,6 +40,9 @@
                 <option value="vendedor">Vendedor</option>
                 <option value="administrativo">Administrativo</option>
                 <option value="estagiario">Estagiário</option>
+                <option value="entregador">Entregador</option>
+                <option value="senior">Senoir</option>
+                <option value="jovem aprendiz">Jovem Aprendiz</option>
             </select>
 
             <label for="salario">Salário:</label>
